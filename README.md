@@ -56,3 +56,18 @@ export default tseslint.config({
 TO CREATE PROJECT - TAILWIND V3.4.17
 https://v3.tailwindcss.com/docs/guides/vite
 
+TO USE FRAMER MOTION
+
+Import framer motion in the file 
+import { motion } from "framer-motion";
+
+Convert a tag into a motion tag
+<motion.div></motion.div>
+
+add the parameters
+initial={{}}
+animate={{}}
+transition={{}}
+
+OR CREATE AN OBJECT
+
